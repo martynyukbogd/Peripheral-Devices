@@ -20,7 +20,7 @@
 
 ## 2. NVMe SSD (PCIe)
 
-![NVMe SSD](https://upload.wikimedia.org/wikipedia/commons/0/0b/Samsung_960_PRO_M.2_SSD.jpg)
+![NVMe SSD](https://content1.rozetka.com.ua/goods/images/big/598491855.jpg)
 
 **Інтерфейс:** PCIe  
 **Форм-фактор:** M.2  

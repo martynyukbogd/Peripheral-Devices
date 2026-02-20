@@ -39,7 +39,7 @@
 
 ## 3. M.2 SSD
 
-![M.2 SSD](https://upload.wikimedia.org/wikipedia/commons/4/4b/M2_SSD.jpg)
+![M.2 SSD](https://content1.rozetka.com.ua/goods/images/big/620685653.jpg)
 
 **Типи інтерфейсу:** SATA або NVMe  
 **Компактний розмір**
@@ -48,11 +48,12 @@
 
 # Основні характеристики SSD
 
-- Об’єм пам’яті (GB/TB)
-- Швидкість читання/запису
-- Тип пам’яті (SLC, MLC, TLC, QLC)
-- TBW (ресурс перезапису)
-- MTBF (надійність)
+![SSD 512GB Apacer AS2280P4](https://click.ua/content/shop/products/4276/photos/nakopitel-ssd-512gb-apacer-as2280p4-mdot2-2280-pcie-3dot0-x4-3d-tlc-left-parenthesisap512gas2280p4minus1right-parenthesis-800x800-511b.jpg)
+
+- Об’єм пам’яті 512gb (GB/TB)
+- Швидкість 2100 МБ/сек читання/запису 1500 МБ/сек 
+- Тип пам’яті (TLC)
+- TBW (ресурс перезапису) 400 TБ 
 
 ---
 

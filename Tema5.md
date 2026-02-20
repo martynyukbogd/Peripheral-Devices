@@ -59,6 +59,8 @@
 
 # Python-скрипт для відображення інформації про встановлений накопичувач
 
+![script.py](https://i.postimg.cc/nr0vknDK/Znimok-ekrana-z-2026-02-20-10-42-25.png)
+
 ```python
 #!/usr/bin/env python3
 

@@ -2,7 +2,7 @@
 
 ## 1. SATA SSD
 
-![SATA SSD](https://upload.wikimedia.org/wikipedia/commons/1/1e/Samsung_SSD_850_EVO_250GB.jpg)
+![SATA SSD](https://content.rozetka.com.ua/goods/images/big/37854461.jpg)
 
 **Інтерфейс:** SATA III (6 Гбіт/с)  
 **Форм-фактор:** 2.5"  

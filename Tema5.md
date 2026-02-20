@@ -59,11 +59,40 @@
 # Python-скрипт для відображення інформації про встановлений накопичувач
 
 ```python
+#!/usr/bin/env python3
+
 import subprocess
 
-def get_disk_info():
-    print("Інформація про накопичувачі:\n")
-    subprocess.run(["lsblk", "-o", "NAME,SIZE,TYPE,MODEL"])
+def run_command(command):
+    """Виконує системну команду та повертає результат."""
+    try:
+        result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        return result.stdout
+    except Exception as e:
+        return f"Помилка виконання команди: {e}"
+
+def show_basic_disk_info():
+    print("\n=== БАЗОВА ІНФОРМАЦІЯ ПРО НАКОПИЧУВАЧІ ===\n")
+    print(run_command(["lsblk", "-o", "NAME,SIZE,TYPE,MOUNTPOINT"]))
+
+def show_model_info():
+    print("\n=== МОДЕЛЬ ТА ВИРОБНИК ДИСКА ===\n")
+    print(run_command(["lsblk", "-d", "-o", "NAME,SIZE,MODEL"]))
+
+def show_detailed_info():
+    print("\n=== ДЕТАЛЬНА ІНФОРМАЦІЯ (потрібні права sudo) ===\n")
+    print(run_command(["sudo", "lshw", "-class", "disk"]))
+
+def main():
+    print("Програма відображення технічної інформації про накопичувач\n")
+    show_basic_disk_info()
+    show_model_info()
+
+    choice = input("Показати детальну інформацію? (y/n): ")
+    if choice.lower() == "y":
+        show_detailed_info()
+    else:
+        print("Завершення роботи.")
 
 if __name__ == "__main__":
-    get_disk_info()
+    main()

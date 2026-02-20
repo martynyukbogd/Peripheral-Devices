@@ -48,7 +48,7 @@
 
 # Основні характеристики SSD
 
-![SSD 512GB Apacer AS2280P4](https://click.ua/content/shop/products/4276/photos/nakopitel-ssd-512gb-apacer-as2280p4-mdot2-2280-pcie-3dot0-x4-3d-tlc-left-parenthesisap512gas2280p4minus1right-parenthesis-800x800-511b.jpg)
+![SSD 512GB Apacer AS2280P4](https://content1.rozetka.com.ua/goods/images/big/27571228.jpg)
 
 - Об’єм пам’яті 512gb (GB/TB)
 - Швидкість 2100 МБ/сек читання/запису 1500 МБ/сек 
